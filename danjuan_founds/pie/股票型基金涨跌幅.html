@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@latest/dist/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="70ce930b582c43c9b5a9dc96e04eed6c" class="chart-container" style="width:1820px; height:980px;"></div>
+    <script>
+        var chart_70ce930b582c43c9b5a9dc96e04eed6c = echarts.init(
+            document.getElementById('70ce930b582c43c9b5a9dc96e04eed6c'), 'white', {renderer: 'canvas'});
+        var option_70ce930b582c43c9b5a9dc96e04eed6c = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "blue",
+        "green",
+        "yellow",
+        "red",
+        "pink",
+        "orange",
+        "purple"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u5357\u65b9\u6709\u8272\u91d1\u5c5e\u8054\u63a5E",
+                    "value": "7.9060"
+                },
+                {
+                    "name": "\u592a\u5e73MSCI\u9999\u6e2f\u4ef7\u503c\u589e\u5f3aA",
+                    "value": "5.1566"
+                },
+                {
+                    "name": "\u592a\u5e73MSCI\u9999\u6e2f\u4ef7\u503c\u589e\u5f3aC",
+                    "value": "5.1510"
+                },
+                {
+                    "name": "\u56fd\u6cf0\u4e2d\u8bc1\u94a2\u94c1ETF\u53d1\u8d77\u5f0f\u8054\u63a5A",
+                    "value": "5.0075"
+                },
+                {
+                    "name": "\u56fd\u6cf0\u4e2d\u8bc1\u94a2\u94c1ETF\u53d1\u8d77\u5f0f\u8054\u63a5C",
+                    "value": "4.9979"
+                },
+                {
+                    "name": "\u6d59\u5546\u4e2d\u534e\u9884\u671f\u9ad8\u80a1\u606fA",
+                    "value": "4.9430"
+                },
+                {
+                    "name": "\u6d59\u5546\u4e2d\u534e\u9884\u671f\u9ad8\u80a1\u606fC",
+                    "value": "4.9334"
+                },
+                {
+                    "name": "\u5357\u65b9\u623f\u5730\u4ea7\u8054\u63a5E",
+                    "value": "4.7977"
+                },
+                {
+                    "name": "\u5de5\u94f6\u56fd\u5bb6\u6218\u7565\u4e3b\u9898",
+                    "value": "4.6200"
+                },
+                {
+                    "name": "\u534e\u5b9d\u7eff\u8272\u9886\u5148\u80a1\u7968",
+                    "value": "4.4259"
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "35%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}: {c}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5357\u65b9\u6709\u8272\u91d1\u5c5e\u8054\u63a5E",
+                "\u592a\u5e73MSCI\u9999\u6e2f\u4ef7\u503c\u589e\u5f3aA",
+                "\u592a\u5e73MSCI\u9999\u6e2f\u4ef7\u503c\u589e\u5f3aC",
+                "\u56fd\u6cf0\u4e2d\u8bc1\u94a2\u94c1ETF\u53d1\u8d77\u5f0f\u8054\u63a5A",
+                "\u56fd\u6cf0\u4e2d\u8bc1\u94a2\u94c1ETF\u53d1\u8d77\u5f0f\u8054\u63a5C",
+                "\u6d59\u5546\u4e2d\u534e\u9884\u671f\u9ad8\u80a1\u606fA",
+                "\u6d59\u5546\u4e2d\u534e\u9884\u671f\u9ad8\u80a1\u606fC",
+                "\u5357\u65b9\u623f\u5730\u4ea7\u8054\u63a5E",
+                "\u5de5\u94f6\u56fd\u5bb6\u6218\u7565\u4e3b\u9898",
+                "\u534e\u5b9d\u7eff\u8272\u9886\u5148\u80a1\u7968"
+            ],
+            "selected": {},
+            "type": "scroll",
+            "show": true,
+            "left": "70%",
+            "orient": "vertical",
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "[\u80a1\u7968\u578b]\u57fa\u91d1\u8fd1\u4e00\u6708\u6da8\u8dcc\u5e45\u524d10\u540d",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_70ce930b582c43c9b5a9dc96e04eed6c.setOption(option_70ce930b582c43c9b5a9dc96e04eed6c);
+    </script>
+</body>
+</html>
